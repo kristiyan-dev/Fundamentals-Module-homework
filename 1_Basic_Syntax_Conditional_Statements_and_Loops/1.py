@@ -1,3 +1,6 @@
-a = 'xax'
+adj = ["red", "big", "tasty"]
+fruits = ["apple", "banana", "cherry"]
 
-print(type(a))
+for x in adj:
+    for y in fruits:
+        print(x, y)
