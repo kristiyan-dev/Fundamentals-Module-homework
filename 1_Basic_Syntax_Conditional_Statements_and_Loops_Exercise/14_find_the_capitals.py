@@ -1,4 +1,9 @@
-name = input()
+name = int(input())
 
-for i in range(9, -1, -1):
-    print(i)
+while name:
+    if name > 5:
+        print('xax')
+        break
+    else:
+        print('No')
+        break
