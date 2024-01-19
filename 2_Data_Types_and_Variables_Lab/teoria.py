@@ -19,3 +19,6 @@
 # my_list = ['2', '6', '3', '1']
 # my_list = sorted(my_list, reverse=True)
 # print(my_list)
+while True:
+    text = {'cat': 'Tigre', 'dog': 'Leq', 'exit': 'finish'}
+    print(text[input()])
