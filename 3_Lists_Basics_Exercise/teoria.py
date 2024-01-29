@@ -25,7 +25,7 @@
 # print(my_list)
 # number = my_list.index('Ivan') # Tyrsi daden element vyv lista
 # print(number)
-# repetition = my_list.count(2) # Dava li kolko pyti elemnta se sydyrja s lista
+# repetition = my_list.count(2) # Dava ti kolko pyti elemnta se sydyrja s lista
 # print(repetition)
 
 # my_list = [1, 2, 3, 'Ivan', 'Pesho', 1, 2, 3,]
@@ -50,3 +50,5 @@
 # name = input().split() # Razdelq inputa na indexi v list
 # print(name)
 
+# my_list = ["Sasho", "Anatoli", "pesho", "Pesho",]
+# print("---".join(my_list)) # Dobavq dadeniqt element mejdu elementite na dadeniqt list (samo za stringove)
