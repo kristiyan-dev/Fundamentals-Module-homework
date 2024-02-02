@@ -10,9 +10,10 @@
 def add_ten(a, b, c, d):
     return a + b + c + d
 
-a = int(input())
-b = int(input())
-c = int(input())
-d = int(input())
-result = add_ten(a, b, c, d)
+
+aa = int(input())
+bb = int(input())
+cc = int(input())
+dd = int(input())
+result = add_ten(aa, bb, cc, dd)
 print(result)
