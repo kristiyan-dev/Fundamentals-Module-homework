@@ -23,4 +23,4 @@ third_number = int(input())
 
 small_element = small_number([first_number, second_number, third_number])
 print(small_element)
-print(small_number.__doc__)
+print(small_number.__doc__) # pokazva kakyv e komentara
