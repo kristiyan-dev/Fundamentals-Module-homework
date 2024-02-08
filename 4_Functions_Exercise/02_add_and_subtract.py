@@ -1,6 +1,7 @@
 def sum_numbers(first, second):
     return first + second
 
+
 def subtract(result, third):
     return result - third
 
@@ -9,8 +10,6 @@ def add_and_subtract(first, second, third):
     returned_result = sum_numbers(first, second)
     final_result = subtract(returned_result, third) #return subtract(returned_result, third)
     return final_result
-
-
 
 
 first_number = int(input())
