@@ -1,7 +1,13 @@
-def even_number(element):
-    my_list = [element.split(' ')]
-    return {my_list}
+numbers = [int(num) for num in input().split()]
 
 
-current_number = input()
-print(even_number(current_number))
+def num(x):
+    if x % 2 == 0:
+        return True
+
+
+even = filter(num, numbers)
+new_list = []
+for x in even:
+    new_list.append(x)
+print(new_list)

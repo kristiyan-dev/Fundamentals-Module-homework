@@ -10,5 +10,6 @@ def odd_even_sum(number):
             odd_sum += int(digit)
     return f"Odd sum = {odd_sum}, Even sum = {even_sum}"
 
+
 numbers = int(input())
 print(odd_even_sum(numbers))

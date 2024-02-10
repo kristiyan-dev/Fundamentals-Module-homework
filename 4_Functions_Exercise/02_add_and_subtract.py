@@ -8,7 +8,7 @@ def subtract(result, third):
 
 def add_and_subtract(first, second, third):
     returned_result = sum_numbers(first, second)
-    final_result = subtract(returned_result, third) #return subtract(returned_result, third)
+    final_result = subtract(returned_result, third)  # return subtract(returned_result, third)
     return final_result
 
 
