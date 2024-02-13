@@ -13,6 +13,7 @@ def reduce_values(target_list, index):
 
     return target_list
 
+
 def shot_for_the_win(target_sequence):
     count_of_shot_target = 0
 

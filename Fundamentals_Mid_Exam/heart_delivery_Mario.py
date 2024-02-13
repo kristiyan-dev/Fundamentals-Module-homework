@@ -7,6 +7,7 @@ def print_cupid_data(neighborhood, current_index):
         failed_house = [house for house in neighborhood if house != 0]
         print(f"Cupid has failed {len(failed_house)} places.")
 
+
 def cupid_main_logic(neighborhood):
     current_index = 0
 

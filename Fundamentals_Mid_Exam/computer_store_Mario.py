@@ -3,6 +3,7 @@ def calculate_order_price(prices):
     taxes = sum(price * 0.20 for price in prices)
     return price_without_taxes, taxes
 
+
 def computer_store():
     prices = []
     additional_discount = False
@@ -33,12 +34,14 @@ def computer_store():
         return total_price, price_without_taxes, taxes
     return price_without_taxes + taxes, price_without_taxes, taxes
 
+
 def print_receipt(total_price, price_without_taxes, taxes):
     print(f"Congratulations you've just bought a new computer!\n"
           f"Price without taxes: {price_without_taxes:.2f}$\n"
           f"Taxes: {taxes:.2f}$\n"
           f"-----------\n"
           f"Total price: {total_price:.2f}$")
+
 
 result = computer_store()
 
