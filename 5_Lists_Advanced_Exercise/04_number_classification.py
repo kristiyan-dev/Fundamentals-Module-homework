@@ -13,7 +13,7 @@ input_numbers = input()
 positive, negative, even, odd = categorize_numbers(input_numbers)
 
 
-print(f"Positive:", *positive)
-print(f"Negative:", *negative)
-print(f"Even:", *even)
-print(f"Odd:", *odd)
+print(f"Positive: {', '.join(map(str,positive))}")
+print(f"Negative: {', '.join(map(str,negative))}")
+print(f"Even: {', '.join(map(str,even))}")
+print(f"Odd: {', '.join(map(str,odd))}")
